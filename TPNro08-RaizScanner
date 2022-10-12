@@ -1,1 +1,19 @@
+package consignas_7_8_9;
+
+import java.util.Scanner;
+
+    public class RaizScanner {
+
+        public static void main(String []args){
+            Scanner scanner = new Scanner(System.in);
+            int num;
+            double raiz;
+
+            System.out.print("Ingrese un numero\n");
+            num = scanner.nextInt();
+
+            raiz = Math.sqrt(num);
+            System.out.print(raiz);
+        }
+    }
 
